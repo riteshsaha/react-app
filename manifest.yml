@@ -1,0 +1,9 @@
+---
+applications:
+- name: react-app
+  memory: 1024MB
+  instances: 1
+  host: react-app-service
+  domains:
+  - apps.wdc-np.itcna.vmware.com
+  timeout: 600
